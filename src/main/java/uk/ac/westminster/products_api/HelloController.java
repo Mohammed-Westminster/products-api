@@ -25,7 +25,7 @@ public class HelloController {
 
     @GetMapping("/status")
     public String status(){
-        return "API running -" + LocalDate.now().toString();
+        return "API running -" + LocalDate.now().toString() + " Have a good day :)";
     }
 
     @GetMapping("/goodbye")
