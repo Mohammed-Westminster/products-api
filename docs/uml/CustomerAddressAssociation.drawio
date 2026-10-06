@@ -1,9 +1,36 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="o5sEjvua-lDWovq2Ci-N">
-    <mxGraphModel>
+    <mxGraphModel dx="1030" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="P5EsGP_-xp_xH3z_BRAc-7" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="330" width="390" x="10" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5EsGP_-xp_xH3z_BRAc-4" parent="P5EsGP_-xp_xH3z_BRAc-7" style="text;html=1;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;" value="Customer" vertex="1">
+          <mxGeometry height="86.08695652173911" width="390" as="geometry" />
+        </mxCell>
+        <mxCell id="P5EsGP_-xp_xH3z_BRAc-5" parent="P5EsGP_-xp_xH3z_BRAc-7" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="- id:long&lt;div&gt;-name:String&lt;/div&gt;&lt;div&gt;-email:String&lt;/div&gt;&lt;div&gt;-address:Address&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86.08695652173911" width="390" y="78.91304347826086" as="geometry" />
+        </mxCell>
+        <mxCell id="P5EsGP_-xp_xH3z_BRAc-6" parent="P5EsGP_-xp_xH3z_BRAc-7" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="Customer()&lt;br&gt; + Customer(id:long,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;name:String,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;email:String,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;address:Address&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;br&gt; + getId() : long&lt;br&gt; + getName() : String&lt;br&gt; + getEmail() : String&lt;div&gt;+getAddress() : Address&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="164.99999999999997" width="390" y="164.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="P5EsGP_-xp_xH3z_BRAc-8" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="330" width="390" x="550" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P5EsGP_-xp_xH3z_BRAc-9" parent="P5EsGP_-xp_xH3z_BRAc-8" style="text;html=1;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;" value="Address" vertex="1">
+          <mxGeometry height="86.08695652173911" width="390" y="-7.17" as="geometry" />
+        </mxCell>
+        <mxCell id="P5EsGP_-xp_xH3z_BRAc-10" parent="P5EsGP_-xp_xH3z_BRAc-8" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;-street:String&lt;/div&gt;&lt;div&gt;-city:String&lt;/div&gt;&lt;div&gt;-postcode:String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="86.08695652173911" width="390" y="78.91304347826086" as="geometry" />
+        </mxCell>
+        <mxCell id="P5EsGP_-xp_xH3z_BRAc-11" parent="P5EsGP_-xp_xH3z_BRAc-8" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="Customer()&lt;br&gt; + Customer(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;street:String,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;city:String,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;postcode:String&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;br&gt; + getStreet() : String&lt;br&gt; + getCity() : String&lt;div&gt;+getPostcode() : String&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="164.99999999999997" width="390" y="164.99999999999997" as="geometry" />
+        </mxCell>
+        <mxCell id="P5EsGP_-xp_xH3z_BRAc-12" edge="1" parent="1" source="P5EsGP_-xp_xH3z_BRAc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" target="P5EsGP_-xp_xH3z_BRAc-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
