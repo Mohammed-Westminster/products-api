@@ -6,8 +6,9 @@ import java.util.List;
 
 @RestController
 public class ProductController {
-    @Autowired
-    private ProductService productService;
+    private final ProductService productService;public ProductController(ProductService productService) {
+        this.productService = productService;
+    }
     @GetMapping ("/products")
     public List<Product> getAllProducts(){
         return productService.getAllProducts();
@@ -24,7 +25,7 @@ public class ProductController {
     public Product addProduct(@RequestBody Product product){
         return productService.addProduct(product);
     }
-    @PostMapping("/products")
+    @PostMapping("/DIGITALproducts")
     public Product addProduct(@RequestBody DigitalProduct product) {
         return productService.addProduct(product);
     }
