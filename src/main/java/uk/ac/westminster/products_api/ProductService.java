@@ -26,6 +26,13 @@ public class ProductService {
        return product;
 
    }
+    public List<String> getAllSummaries() {
+        List<String> summaries = new ArrayList<>();
+        for (Product p : products) {
+            summaries.add(p.getSummary());
+        }
+        return summaries;
+    }
    public Optional<Product> getProductById(Long id){
         return products.stream()
                 .filter(p -> p.getId().equals(id))
@@ -39,5 +46,6 @@ public class ProductService {
                 .filter(p -> p.getName().contains(name))
                 .toList();
     }
+
 }
 

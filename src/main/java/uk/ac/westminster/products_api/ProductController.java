@@ -16,8 +16,16 @@ public class ProductController {
     public Product getProductById(@PathVariable Long id){
         return productService.getProductById(id).orElse(null);
     }
+    @GetMapping("/products/summaries")
+    public List<String> getSummaries() {
+        return productService.getAllSummaries();
+    }
     @PostMapping ("/products")
     public Product addProduct(@RequestBody Product product){
+        return productService.addProduct(product);
+    }
+    @PostMapping("/products")
+    public Product addProduct(@RequestBody DigitalProduct product) {
         return productService.addProduct(product);
     }
     @DeleteMapping("/products/{id}")
